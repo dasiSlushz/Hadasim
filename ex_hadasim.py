@@ -44,7 +44,6 @@ def ex(path):
         words = text.replace('!', '.')
         words = words.replace('?', '.')
         words = words.split('.')
-        print(len(words))
         conter = 0
 
         for line in words:
